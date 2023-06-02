@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube clone</title>
+    <link rel="stylesheet" href="searchPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="leftside-header">
+            <i class="fa-solid fa-bars" id="three-bar"></i>
+            <i class="fa-brands fa-youtube" id="youtube-icon"></i>
+            <h2 id="youtube-name">MyYoutube</h2>
+        </div>
+        <div class="midside-header">
+            <input type="text" id="search-input" placeholder="search">
+            <i class="fa-sharp fa-solid fa-xmark" id="input-clear-btn"></i>
+            <i class="fa-solid fa-magnifying-glass" onclick="searchVideos()" id="search-btn"></i>
+            <!-- <button id="search-btn" onclick="searchVideos()">Search</button> -->
+        </div>
+        <div class="rightside-header">
+            <i class="fa-ragular fa-video-plus"></i>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="side-bar">
+            <div class="side-content" id="home">
+                <span></span>
+                <span>home</span>
+            </div>
+            <div class="side-content" id="shorts">
+                <span></span>
+                <span>Shorts</span>
+            </div>
+            <div class="side-content" id="subs">
+                <span></span>
+                <span>Subscriptions</span>
+            </div>
+            <div class="side-content" id="library">
+                <span></span>
+                <span>Library</span>
+            </div>
+            <div class="side-content" id="history">
+                <span></span>
+                <span>History</span>
+            </div>
+            <div class="side-content" id="your-videos">
+                <span></span>
+                <span>Your videos</span>
+            </div>
+            <div class="side-content" id="watch-later">
+                <span></span>
+                <span>Watch later</span>
+            </div>
+            <div class="side-content" id="Explore">
+                <span>Explore</span>
+            </div>
+            <div class="side-content" id="trending">
+                <span></span>
+                <span>Trending</span>
+            </div>
+            <div class="side-content" id="shopping">
+                <span></span>
+                <span>Shopping</span>
+            </div>
+            <div class="side-content" id="music">
+                <span></span>
+                <span>Music</span>
+            </div>
+            <div class="side-content" id="movies">
+                <span></span>
+                <span>Movies</span>
+            </div>
+            <div class="side-content" id="live">
+                <span></span>
+                <span>Live</span>
+            </div>
+            <div class="side-content" id="gaming">
+                <span></span>
+                <span>Gaming</span>
+            </div>
+            <div class="side-content" id="news">
+                <span></span>
+                <span>News</span>
+            </div>
+            <div class="side-content" id="sports">
+                <span></span>
+                <span>Sports</span>
+            </div>
+            <div class="side-content" id="learning">
+                <span></span>
+                <span>Learning</span>
+            </div>
+            <div class="side-content" id="fashion">
+                <span></span>
+                <span>Fashion & Beauty</span>
+            </div>
+            
+
+        </div>
+        <div id="videos-container">
+        </div>
+    </div>
+
+
+
+    <script src="searchPage.js"></script>
+</body>
+</html>
